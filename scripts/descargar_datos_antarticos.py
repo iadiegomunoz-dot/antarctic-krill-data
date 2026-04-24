@@ -28,8 +28,8 @@ except ImportError:
 #  CONFIGURACIÓN
 # ══════════════════════════════════════════════════════════════════════════════
 
-# Directorio base: usar directorio actual (donde está el script)
-BASE_DIR = Path(__file__).parent.resolve()
+# Directorio base: usar carpeta data en la raíz del repo
+BASE_DIR = Path(__file__).parent.parent.resolve() / "data"
 YEAR_START = 2002
 YEAR_END   = 2024
 
